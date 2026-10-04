@@ -31,7 +31,7 @@
 		%>
 			<jsp:forward page="error.jsp" />
 		<% } else { %>
-			<h4 class="text-primary"><%= prod.getName() %></h5>
+			<h4 class="text-primary"><%= prod.getName() %></4>
 			<h5 class="text-danger"><%= prod.getPrice() %>원</h5>
 		<% } %>
 	</div>

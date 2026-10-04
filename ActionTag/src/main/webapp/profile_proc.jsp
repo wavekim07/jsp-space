@@ -12,5 +12,5 @@
 	    <jsp:getProperty property="email" name="profile"/>
 	    --%>
 	    <% } else { %>
-	    </jsp:forward page="error.jsp" />
+	    <jsp:forward page="error.jsp" />
 	    <% } %>
