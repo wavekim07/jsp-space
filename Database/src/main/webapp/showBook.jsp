@@ -20,11 +20,11 @@
 	<p>출판일 : <%= book.getPubdate() %></p>
 	<p>가격 : <%= book.getPrice() %></p>
 	<p>평점 : <%= book.getRating() %></p>
+	<p><a href="deleteBook.jsp?bookid=<%= book.getBookid() %>">도서 삭제</a></p>
 	<% } else { %>
 	<p>도서 정보 검색 오류</p>
 	<% } %>
 	<p><a href="listBooks.jsp">도서 목록</a></p>
-	<p><a href="deleteBook.jsp?bookid=<%= book.getBookid() %>">도서 삭제</a></p>
 </body>
 </html>
 
